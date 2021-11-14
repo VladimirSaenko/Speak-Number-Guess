@@ -24,6 +24,7 @@ function writeMessage(message) {
 
 function checkNumber(msg) {
     const num = +msg;
+    // const num = msg === 'один' ? 1 : +msg;
     console.log(num);
     if(isNaN(num)) {
         messageEl.innerHTML += '<div>That is not a valid number</div>';
